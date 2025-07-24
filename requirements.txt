@@ -1,0 +1,37 @@
+# === Core ML & Data Stack ===
+numpy==2.2.6
+pandas==2.3.0
+scikit-learn==1.7.0
+xgboost==3.0.2
+joblib==1.5.1
+
+# === Visualization ===
+matplotlib==3.10.3
+seaborn==0.13.2
+plotly==6.2.0
+
+# === Binance API & Environment ===
+python-binance==1.0.29
+python-dotenv==1.1.1
+
+# === Utility ===
+tqdm==4.67.1
+
+# === TA-Lib ===
+# TA-Lib requires native binaries. Do not install via pip directly unless you are on Linux or macOS.
+#
+# For Windows:
+# 1. Download the appropriate .whl file from:
+#    https://github.com/mrjbq7/ta-lib/releases
+#    Example: ta_lib‑0.6.4‑cp310‑cp310‑win_amd64.whl for Python 3.10
+# 2. Install with:
+#    pip install path/to/ta_lib-0.6.4-*.whl
+#
+# For Conda (any OS):
+#    conda install -c conda-forge ta-lib
+#
+# For Linux/macOS with TA-Lib C library preinstalled:
+#    pip install ta-lib
+#
+# Uncomment below only if your system supports pip install of TA-Lib
+# ta-lib==0.5.1
