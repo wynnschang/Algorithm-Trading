@@ -1,1 +1,1 @@
-# Algorithm-Trading
+# Algorithm-Trading:BTCUSD Signal Prediction
